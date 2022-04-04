@@ -1,0 +1,41 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Console Test</title>
+</head>
+<body>
+
+<img/><br><br>
+<input type="button" value="___"  id="btn" />
+
+<script>
+function srcParm(imageName) {
+   parsedUrl = new URL(window.location.href);   /get ref to the html page/
+   imgHost = parsedUrl.hostname;                /get the webserver hostname/
+   if (parsedUrl.hostname === '192.168.0.16') { /set port number if local host/
+      imgPort = ':8000'; } else { imgPort = '';
+      }
+   src="http://" + parsedUrl.hostname         
+                 + imgPort 
+                 + "/usr/" + imageName;         /create the turn value/ 
+   return(src)
+   }
+</script>
+
+
+<script>
+const img = document.querySelector("img");      /get ref to html image tag/
+img.src = srcParm("placeholder.gif");           /add image to the html tag/
+document.getElementById("btn").value=
+   "Load New Image";
+document.getElementById("btn").addEventListener('click', loadImage);
+
+
+function loadImage() {
+   img.src = srcParm("helloworld.gif");         /add image to the html tag/
+   }
+</script>
+
+
+</body>
+</html>
