@@ -11,4 +11,6 @@ When the page initially loads, a placeholder image is displayed; along with a bu
 
 4/9/20 Uploaded DOMTextAppend.html
 https://www.core3.com/usr/DOMTextAppend.html
-The page illustrates a few different methods for adding content (text and image) using javascript and DOM APIs
+The page illustrates 6 different methods for adding or modifying content (text and image) using javascript and DOM APIs.
+
+![DOMTextAppend2](https://user-images.githubusercontent.com/103004352/162592232-2c0442c1-c464-4b41-9b48-d8b1ab87007d.png)
