@@ -14,3 +14,10 @@ https://www.core3.com/usr/DOMTextAppend.html
 The page illustrates 6 different methods for adding or modifying content (text and image) using javascript and DOM APIs.
 
 ![DOMTextAppend2](https://user-images.githubusercontent.com/103004352/162592232-2c0442c1-c464-4b41-9b48-d8b1ab87007d.png)
+
+1. Use append() to add a string of text
+2. Use append() to add a div object containing text while setting background to yellow 
+3. Use appendChild() to add an input object with defaultValue set to display text
+4. use append() to add bold text
+5. use append() to add underlined text
+6. use append() to add an image object. Set src attribute with the URL of the image to display. Set image size using width and height attributes
